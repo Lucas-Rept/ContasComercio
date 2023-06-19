@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page-container{
+    padding-top: 2rem;
+    width: calc(100% - 100px);
+    margin: auto;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+.header-options{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.search-button{
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
+.search-camp{
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.search-icon{
+    width: 100%;
+}
+
+.add-button{
+    margin-left: 1rem;
+    padding: 0px 10px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.add-button:hover{
+    background-color: rgb(222, 222, 222);
+}
+
+.plus-icon{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.cliente-link{
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+}
+
+.cliente-link a{
+    text-decoration: none;
+    height: 40px;
+    padding-left: 20px;
+    line-height: 40px;
+    color: black;
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.deletar-conta-botao{
+    margin-left: auto;
+}
+
+.cliente-link:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+.clientes-lista{
+    list-style: none;
+}
+
+.modal-adicionar-exterior{
+    background-color: rgba(0, 0, 0, 0.189);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+}
+
+.modal-adicionar-interior{
+    padding: 20px;
+    background-color: white;
+}
+
+.add-inputs{
+    display: block;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+.buttons-modal{
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 5px 10px;
+}
+
+.modal-deletar-exterior{
+    background-color: rgba(0, 0, 0, 0.189);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+}
+
+.modal-deletar-interior{
+    padding: 20px;
+    background-color: white;
+}
+
+
+.hide{
+    display: none;
+}

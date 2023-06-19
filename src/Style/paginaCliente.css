@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page-container{
+    padding-top: 2rem;
+    width: calc(100% - 100px);
+    margin: auto;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+.header-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.add-produto-button{
+    margin-left: 1rem;
+    padding: 0px 10px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+
+.plus-icon{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.modal-adicionar-exterior{
+    background-color: rgba(0, 0, 0, 0.189);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+}
+
+.modal-adicionar-interior{
+    padding: 20px;
+    background-color: white;
+}
+
+.add-inputs{
+    display: block;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+.buttons-modal{
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 5px 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.detalhes-produto{
+    display: flex;
+    border: 1px solid black;
+    padding: 8px 5px;
+}
+
+.detalhes-produto span{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+.quantidade-produto{
+    border-right: 1px solid black;;
+    min-width: 50px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.nome-produto{
+    margin-right: auto;
+}
+
+.data-produto{
+    width: 100px;
+    border-left: 1px solid black;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.total{
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+}
+
+.totalPreco{
+    margin-left: auto;
+    font-size: 1.5rem;
+}
+
+.header-list{
+    font-size: 1.3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.buttons-default{
+    padding: 10px;
+    margin-left: auto;
+    display: block;
+    margin-top: 3rem;
+    cursor: pointer;
+}
